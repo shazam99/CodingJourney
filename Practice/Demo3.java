@@ -1,37 +1,36 @@
 package Practice;
 
+
 class Demo3{
     public static void main(String[] args) {
-        Vehicle v1 = new Vehicle();
-        v1.count();
-
-        Vehicle v2 = new Bike();
-        v2.count();
-//        v2.run();
-        v2.demo();
-
-        Bike v3 = new Bike();
-        v3.count();
-        v3.run();
-
+        Vehicle x1 = new Vehicle();
+        x1.sum();
+        System.out.println("---------------------");
+        Vehicle x2 = new Bike();
+        x2.sum();
+        x2.special();
+        System.out.println("---------------------");
+        Bike x3 = new Bike();
+        x3.sum();
+        x3.special();
     }
 }
 
 
 class Vehicle{
-    int count(){
-        return 3;
+    void sum(){
+        System.out.println(100);
     }
-    void demo(){
-        System.out.println(1);
+
+    void special(){
+        System.out.println("special vehicle");
     }
 }
 
 class Bike extends Vehicle{
-    int count(){
-        return 2;
+    void sum(){
+        System.out.println(500);
     }
-
     void run(){
         System.out.println("run");
     }
