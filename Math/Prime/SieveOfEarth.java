@@ -1,8 +1,6 @@
 package Math.Prime;
 
-import java.util.Arrays;
-
-public class SieveOfErath {
+public class SieveOfEarth {
     public static void main(String[] args) {
         int n=2;
         boolean[] dp = new boolean[n+1];
