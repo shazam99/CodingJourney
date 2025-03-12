@@ -34,11 +34,19 @@ public class OneShot {
                 .distinct()                     // filters only distinct, just like SET
                 .sorted()                       // sorts the Stream
                 .map(String::toLowerCase)       // converts the Stream<String> to lowerCase
+                .peek(System.out::println)      // to add void operations without disturbing the stream
                 .toList();                      // converts the Stream<String> to List<String>
         System.out.println(carMakeList);        // -> [audi, bmw, mercedes, skoda, toyota]
 
         // 3. FlatMap function (Flattens out the result)
         List<String> carMakeModelList = cars.stream().flatMap(car -> Stream.of(car.make, car.model)).toList();
         System.out.println(carMakeModelList); // -> [BMW, 530, Audi, A5, Mercedes, E-Class, Skoda, Octavia, Toyota, TypeR]
+
+        // 4. Reduce function
+        int totalYears = cars.stream()
+                .map(Car::year)
+                .reduce(0, Integer::sum);
+
+        System.out.println("Total years: " + totalYears); // -> Total years: 9051
     }
 }
