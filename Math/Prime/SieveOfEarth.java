@@ -2,7 +2,7 @@ package Math.Prime;
 
 public class SieveOfEarth {
     public static void main(String[] args) {
-        int n=2;
+        int n=10;
         boolean[] dp = new boolean[n+1];
         for (int i = 2; i < dp.length; i++) {
             dp[i]=true;

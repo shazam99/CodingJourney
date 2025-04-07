@@ -4,7 +4,7 @@ public class PrivateConstructor {
 
         // this will not work as private constructor is called outside Class
     public static void main(String[] args) {
-        // PrivateA r = new PrivateA();
+//         PrivateA r = new PrivateA();
     }
 }
 class PrivateA{

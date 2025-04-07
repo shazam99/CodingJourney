@@ -1,5 +1,7 @@
 package Oops.Basic;
 
+import java.util.Arrays;
+
 public class NewClass {
     public static void main(String[] args) {
         Test test = new Test();
@@ -7,6 +9,9 @@ public class NewClass {
 
         Exam exam = new Exam();
         exam.print();
+
+        int[] arr = new int[]{1,2,3,4,5};
+        Arrays.stream(arr);
     }
 
 }
