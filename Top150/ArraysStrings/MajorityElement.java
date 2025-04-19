@@ -1,4 +1,4 @@
-package Top150;
+package Top150.ArraysStrings;
 
 public class MajorityElement {
     // 169. Majority Element

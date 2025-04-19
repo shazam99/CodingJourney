@@ -1,4 +1,4 @@
-package Top150;
+package Top150.ArraysStrings;
 
 public class BestTimeToBuyAndSellStockII {
     // 122. Best Time to Buy and Sell Stock II

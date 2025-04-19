@@ -1,4 +1,4 @@
-package Top150;
+package Top150.ArraysStrings;
 
 public class RemoveDuplicatesFromSortedArrayI {
     // 26. Remove Duplicates from Sorted Array
