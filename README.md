@@ -27,9 +27,19 @@
 122. [Best Time to Buy and Sell Stock II](Top150/ArraysStrings/BestTimeToBuyAndSellStockII.java)
 274. [H-Index](Top150/ArraysStrings/HIndex.java)
 
-> two pointers 
+> Two pointers 
 125. [Valid Palindrome](Top150/TwoPointers/ValidPalindrome.java)
 392. [Is Subsequence](Top150/TwoPointers/IsSubsequence.java)
 167. [Two Sum II - Input Array Is Sorted](Top150/TwoPointers/TwoSumIIInputArrayIsSorted.java)
 11. [Container With Most Water](Top150/TwoPointers/ContainerWithMostWater.java)
+15. [Three Sum](Top150/TwoPointers/ThreeSum.java)
 
+> HashMaps
+383. [Ransome Note](Top150/HashMaps/RansomNote.java)
+290. [Word Map](Top150/HashMaps/WordMap.java)
+1. * [Two Sum](Top150/HashMaps/TwoSum.java)
+49. [Group Anagrams](Top150/HashMaps/GroupAnagrams.java)
+128. * [Longest Consecutive Sequence](Top150/HashMaps/LongestConsecutive.java)
+
+> Intervals
+56. * [Merge Intervals](Top150/Intervals/MergeIntervals.java)
