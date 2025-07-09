@@ -44,4 +44,4 @@
 > Intervals
 228. * [Summary Ranges](Top150/Intervals/SummaryRanges.java)
 56. * [Merge Intervals](Top150/Intervals/MergeIntervals.java)
-452. * [Minimum Number of Arrows to Burst Balloons](Top150/Intervals/MinimumNumberOfArrowsToBurstBalloons.java)
+452. * [Minimum Number of Arrows to Burst Balloons](Top150IntervalsMinimumNumberOfArrowsToBurstBalloons.java)
